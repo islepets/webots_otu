@@ -1,2 +1,0 @@
-﻿D:\IDE\VisualStudio22\1\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(541,5): warning MSB8029: Промежуточный каталог или каталог выхода не может располагаться во временном каталоге, потому что это может стать причиной проблем с добавочной сборкой.
-  first_lab.vcxproj -> C:\Users\ilya_slepets\Documents\my_project\controllers\first_lab\first_lab.exe
