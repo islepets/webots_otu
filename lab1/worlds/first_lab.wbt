@@ -1,0 +1,97 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.00837759308601309 0.999954811025833 -0.004493533172917663 1.6409138043825422
+  position 0.45953914389711303 -0.11080934033622383 5.717430151474578
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 2 2
+}
+E-puck {
+  hidden position_0_0 -3.097463086021435e-08
+  hidden position_0_1 -3.097445566771687e-08
+  hidden rotation_1 0 -1 0 2.9802322387695313e-08
+  hidden rotation_2 0 -1 0 2.9802322387695313e-08
+  translation -0.6860340002659239 0.5311540000413006 -6.489786866032722e-05
+  rotation 0.0004819434428856166 0.0016089763534653525 -0.9999985894618111 0.58234531796689
+  controller "first_lab"
+}
+Solid {
+  translation -0.42 0.24 0.0300015
+  rotation 0 1 0 1.5708
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.333333 1
+        roughness 1
+        metalness 0
+      }
+      geometry Capsule {
+        height 0.1
+        radius 0.05
+      }
+    }
+  ]
+  name "solid(3)"
+}
+Solid {
+  translation 0.53 -0.44 0.13
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.3
+        radius 0.1
+      }
+    }
+  ]
+  name "solid(2)"
+}
+Solid {
+  translation 0.32 0.37 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.333333 0.333333 1
+        roughness 1
+        metalness 0
+      }
+      geometry Cone {
+        bottomRadius 0.2
+        height 0.4
+      }
+    }
+  ]
+  name "solid(1)"
+}
+Solid {
+  translation -0.42 -0.51 0.1
+  rotation 0 0 1 0.523599
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.2 0.2 0.2
+      }
+    }
+  ]
+}
